@@ -1,0 +1,97 @@
+.container {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    margin: 3rem auto;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    font-weight: 900;
+    color: var(--primary-color);
+  }
+  .content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box span.details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid {
+    border-color: var(--hover-color);
+  }
+  span{
+    color: var(--primary-color);
+  }
+  form .gender-details .gender-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  form .category {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+  }
+  form .category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  form .category label .dot {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+  #dot-1:checked~.category label .one,
+  #dot-2:checked~.category label .two,
+  #dot-3:checked~.category label .three {
+    background: var(--hover-color);
+    border-color: #d9d9d9;
+  }
+  form input[type="radio"] {
+    display: none;
+  }
+  .button input{
+    all: unset;
+    /* padding: 1rem; */
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+.button input:hover{
+    background-color:var(--hover-color);
+
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE GRAND FOOTER</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- /*********** navbar *********/ -->
+    <nav>
+        <a href="./index.html">
+            <div id="logo"><img src="logo/Nirav_Bavadiya-logo.png" alt=""></div>
+        </a>
+        <div id="nav-list">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product.html">PRODUCTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">FEEDBACK</a></li>
+            </ul>
+        </div>
+        <div id="nav-account">
+            <ul>
+                <li href="#" id="acc-icon"><a><i class="fa-solid fa-circle-user"></i></a>
+                    <div id="nav-dropdown-container">
+                        <ul>
+                            <li style="border-bottom: 1px solid black;"><a href="login.html">LOGIN</a></li>
+                            <li><a href="register.html">REGISTER</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li href="#"><a><i class="fa-solid fa-arrow-right-from-bracket"></i><span
+                            style="margin-left: 5px;">LOGOUT</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Username</span>
+                <input type="text" placeholder="Enter your username" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="email" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="number" placeholder="Enter your number" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Password</span>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Confirm Password</span>
+                <input type="password" placeholder="Confirm your password" required>
+              </div>
+            </div>
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1">
+              <input type="radio" name="gender" id="dot-2">
+              <input type="radio" name="gender" id="dot-3">
+              <span class="gender-title">Gender</span>
+              <div class="category">
+                <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="gender">Male</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="gender">Female</span>
+                </label>
+                <label for="dot-3">
+                  <span class="dot three"></span>
+                  <span class="gender">Prefer not to say</span>
+                </label>
+              </div>
+            </div>
+            <div class="button">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <!-- /*********** footer *********/ -->
+    <footer>
+
+        <div id="footer-container">
+            <div id="footer-logo-container">
+                <a href="./index.html">
+                    <img src="logo/Nirav_Bavadiya-logo.png" alt="logo" class="logo">
+                </a>
+                <span>Your Gateway to Knowledge</span>
+            </div>
+            <div>
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">FEEDBACK</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Library Policy</h3>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Code of Conduct</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer-icons">
+            <div>
+                <h3>Follow Us:</h3>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div>
+                <h3>contact Us:</h3>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="copyright">
+            © 2024 Legacy Library. All rights reserved.
+        </div>
+
+    </footer>
+</body>
+
+</html>
